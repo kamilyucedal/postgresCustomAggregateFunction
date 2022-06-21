@@ -15,9 +15,9 @@ It can be installed by running scripts in "aggregate-in-sql" file ( or directly 
 select min_to_max(tt) from (values(1),(22),(3)) as a(tt);
 
 #### Output be like 
-
-min_to_max
+min to max
 ------------
- 1->22
+1->22
+
 
 I plan to write an extension with C language for it as well. 
